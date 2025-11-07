@@ -1,0 +1,85 @@
+$date
+	Sat Nov  8 00:45:27 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module Testbench $end
+$var reg 1 ! clk $end
+$scope module cpu_inst $end
+$var wire 1 ! clk $end
+$var wire 32 " result [31:0] $end
+$var wire 32 # b [31:0] $end
+$var wire 32 $ a [31:0] $end
+$var reg 4 % alu_control [3:0] $end
+$var reg 5 & rd [4:0] $end
+$var reg 1 ' reg_write $end
+$var reg 5 ( rs1 [4:0] $end
+$var reg 5 ) rs2 [4:0] $end
+$scope module alu $end
+$var wire 4 * alu_control [3:0] $end
+$var wire 32 + b [31:0] $end
+$var wire 32 , a [31:0] $end
+$var reg 32 - result [31:0] $end
+$upscope $end
+$scope module rf $end
+$var wire 1 ! clk $end
+$var wire 32 . read_data1 [31:0] $end
+$var wire 32 / read_data2 [31:0] $end
+$var wire 5 0 read_reg1 [4:0] $end
+$var wire 5 1 read_reg2 [4:0] $end
+$var wire 1 ' reg_write $end
+$var wire 32 2 write_data [31:0] $end
+$var wire 5 3 write_reg [4:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+b11 3
+b1100 2
+b10 1
+b1 0
+b111 /
+b101 .
+b1100 -
+b101 ,
+b111 +
+b0 *
+b10 )
+b1 (
+0'
+b11 &
+b0 %
+b101 $
+b111 #
+b1100 "
+0!
+$end
+#5000
+1!
+#10000
+0!
+#15000
+1!
+#20000
+0!
+#25000
+1!
+#30000
+0!
+#35000
+1!
+#40000
+0!
+#45000
+1!
+#50000
+0!
